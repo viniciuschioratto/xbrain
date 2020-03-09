@@ -22,7 +22,6 @@ public class PedidoServiceImpl implements PedidoService {
 	@Override
 	@Transactional
 	public Pedido salvar(Pedido pedido) {
-		//Irei salvar os dados do pedido e logo em seguida os produtos deste pedido
 		return repository.save(pedido);
 	}
 
